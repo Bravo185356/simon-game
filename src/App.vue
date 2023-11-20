@@ -161,52 +161,44 @@ export default {
   border-radius: 50%;
   overflow: hidden;
 }
-.button {
-  width: 100px;
-  height: 30px;
-}
 button {
   border: 0;
 }
 .blue.active,
-.blue.hoverable:active {
+.blue.hoverable {
   background-color: rgb(98, 98, 255);
 }
 .red.active,
-.red.hoverable:active {
+.red.hoverable {
   background-color: rgb(252, 78, 78);
 }
 .yellow.active,
-.yellow.hoverable:active {
+.yellow.hoverable {
   background-color: rgb(255, 255, 70);
 }
 .green.active,
-.green.hoverable:active {
+.green.hoverable {
   background-color: rgb(62, 252, 62);
+}
+.button {
+  width: 300px;
+  height: 300px;
 }
 .blue {
   background-color: rgb(169, 169, 255);
   border-radius: 50% 0 0 0;
-  width: 300px;
-  height: 300px;
 }
 .red {
   background-color: rgb(255, 158, 158);
   border-radius: 0 50% 0 0;
-  width: 300px;
-  height: 300px;
 }
 .yellow {
   background-color: rgb(255, 255, 161);
   border-radius: 0 0 0 50%;
-  width: 300px;
-  height: 300px;
 }
 .green {
   background-color: rgb(126, 255, 126);
   border-radius: 0 0 50% 0;
-  width: 300px;
-  height: 300px;
 }
 .start-button {
   width: 200px;
