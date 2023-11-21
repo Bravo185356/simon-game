@@ -165,19 +165,19 @@ button {
   border: 0;
 }
 .blue.active,
-.blue.hoverable {
+.blue.hoverable:active {
   background-color: rgb(98, 98, 255);
 }
 .red.active,
-.red.hoverable {
+.red.hoverable:active {
   background-color: rgb(252, 78, 78);
 }
 .yellow.active,
-.yellow.hoverable {
+.yellow.hoverable:active {
   background-color: rgb(255, 255, 70);
 }
 .green.active,
-.green.hoverable {
+.green.hoverable:active {
   background-color: rgb(62, 252, 62);
 }
 .button {
