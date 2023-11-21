@@ -4,3 +4,5 @@ import App from './App.vue'
 new Vue({
   render: (h) => h(App)
 }).$mount('#app')
+
+Vue.config.devtools = true
